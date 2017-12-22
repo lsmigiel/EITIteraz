@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">EITI teraz</string>
+    <string name="right_now_classes_message">Aktualnie trwają:</string>
+    <string name="back_to_map_text_button"><![CDATA[<- Back to map]]></string>
+    <string name="who_called_current_classes">Calling activity:</string>
+    <string name="see_full_list_message">See full list:</string>
+    <string name="see_full_list_text_button">See full</string>
+</resources>

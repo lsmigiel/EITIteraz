@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:padding="20dp"
+    >
+
+    <LinearLayout
+        android:gravity="center|top"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <!--android:gravity="left"-->
+        <!--android:padding="20dp"-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_map_text_button"
+            android:onClick="onBackToMap"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dumb_message_ET"/>
+
+        <TextView
+            android:id="@+id/who_called_current_classes_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/who_called_current_classes"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/right_now_classes_message"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
